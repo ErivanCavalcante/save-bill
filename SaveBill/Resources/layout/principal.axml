@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:id="@+id/layPrincipal">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_weight="0.5"
+        android:layout_margin="30dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout3"
+            android:layout_weight="0.5"
+            android:layout_margin="20dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/btLeitura"
+                android:background="@drawable/icone_leitura"
+                android:layout_weight="0.5"
+                android:layout_marginBottom="20dp"
+                android:minWidth="100dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/btValorAtual"
+                android:background="@drawable/icone_energia"
+                android:layout_weight="0.5"
+                android:minWidth="100dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout4"
+            android:layout_weight="0.5"
+            android:layout_margin="20dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/btMetaMes"
+                android:background="@drawable/icone_energia"
+                android:layout_weight="0.5"
+                android:layout_marginBottom="20dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/btEstatistica"
+                android:background="@drawable/icone_graficos"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/linearLayout2"
+        android:layout_weight="0.5">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/linearLayout5"
+            android:layout_weight="0.6" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/linearLayout6"
+            android:layout_weight="0.4"
+            android:gravity="right"
+            android:layout_margin="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btCreditos"
+                android:background="@drawable/icone_desenvolvedor"
+                android:layout_gravity="left"
+                android:minWidth="100dp"
+                android:gravity="left" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

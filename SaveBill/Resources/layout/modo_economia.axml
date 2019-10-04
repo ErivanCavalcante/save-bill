@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:gravity="center_vertical"
+    android:id="@+id/layMetaMes">
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txMetaMes"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Meta Mensal*"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+    <Button
+        android:text="Iniciar Modo Economia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btModoEconomia"
+        android:layout_margin="50dp"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/background_light" />
+</LinearLayout>
